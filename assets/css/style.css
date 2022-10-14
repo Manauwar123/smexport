@@ -194,7 +194,7 @@
 }
 .slider::before{
   content: "";
-  display: block;
+  display: flex;
   position: absolute;
   top: 0;
   left: 0;
@@ -220,25 +220,25 @@
   width: 100%;
   height: 100vh;
   text-align: center;
-  background: url("../image/ship-1450473.jpg");
+  background: url(assets/image/ship-1450473.jpg");
   animation: slide 10s infinite;
 }
 @keyframes slide{
   25%{
-    background-image: url("../image/container-ship-1240170.jpg");
+    background-image: url("assets//image/container-ship-1240170.jpg");
     background-size: cover;
   }
   50%{
-    background-image: url("../image/container-1-1442400.jpg");
+    background-image: url("assets/image/container-1-1442400.jpg");
     background-size: cover;
   }
   75%{
-    background-image: url("../image/ship-1450473.jpg");
+    background-image: url("assets/image/ship-1450473.jpg");
     background-size: cover;
     }
 
     100%{
-    background: url("../images/ship-1450473.jpg");
+    background: url("assets/images/ship-1450473.jpg");
     background-size: cover;
 }
 
