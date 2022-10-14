@@ -192,7 +192,7 @@
   -webkit-background-size: cover;
   background-size: cover;
 }
-.carousel-item::before{
+.slider::before{
   content: "";
   display: block;
   position: absolute;
